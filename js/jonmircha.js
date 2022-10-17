@@ -1,6 +1,6 @@
 
 // Curso de javascript Jon Mircha
-console.log("Course JOnMirchA");
+console.log("Course JOn MirchA");
 //Funciones
 
 //Arreglos
@@ -40,8 +40,73 @@ const jon = {                   //Se crea el objeto
     }
 }
 
-console.log(jon);
-console.log(jon["nombre"]);
+// console.log(jon);//Muestra el objeto en la consola
+// console.log(jon["nombre"]); //Muestra la propiedad nombre del objeto.
+
+
+
+//OPERADORES
+/*Aritméticos + - * / % () */
+
+let aa = 5 + 5 - 10 * 3 ;
+let modulo = 5%2;
+//Una division nos da el numero de arriba que es el cosiente
+//En cuestión del módulo es el (residuo) es el numero que está abajo(solo que nos da en numero entero antes de punto decimal)
+ 
+// console.log(aa);
+// console.log(modulo)
+
+//OPERADORES RELACIONALES > < >= <= == === != !==
+
+// console.log (9>2);
+// console.log (3<3);
+// console.log (7>=7);
+
+/* 
+=   1 igual es asignación de variable
+==  2 iguales es comparación de valores (solo valores)
+=== 3 iguales es comparación de tipo de dato y de valor
+*/
+
+// console.log(2 == "2"); //True da verdadero
+// console.log(2 === "2");//False
+
+
+//OPERADORES DE INCREMENTO Y DECREMENTO
+let i = 1;
+i = i + 2;  //3
+
+//Suma
+let suma = 1
+suma += 3;
+// console.log ( suma );
+
+//Multiplicación
+let multipli = 2;
+multipli *= 4;
+// console.log(multipli);
+
+//Resta
+let resta = 5;
+resta -= 2; //Hablado sería resta va a ser igual a resta menos 2; (resta vale 5 menos 2 //3);
+// console.log(resta);
+
+
+let division = 1;
+division /= 3;
+// console.log(division);
+
+
+//Operador unario
+let uno = 1;
+uno++;
+
+console.log(uno)
+
+
+
+
+
 
 
 
