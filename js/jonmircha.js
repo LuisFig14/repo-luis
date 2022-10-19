@@ -43,7 +43,7 @@ const jon = {                   //Se crea el objeto
     }
 }
 
-<<<<<<< HEAD
+
 // console.log(jon);//Muestra el objeto en la consola
 // console.log(jon["nombre"]); //Muestra la propiedad nombre del objeto.
 
@@ -108,10 +108,6 @@ uno++;
 console.log(uno)
 
 
-
-
-
-=======
 // console.log(jon);
 console.log(jon["nombre"]);         //Accediendo al atributo
 console.log(jon.apellido);          //Accediendo al atributo
@@ -123,8 +119,8 @@ console.log(jon.contacto.movil);
 jon.saludar();                       //Mandando llamar a la funcion que esta dentro dl objeto
 
 jon.decirMiNombre();
->>>>>>> a17a0c54e966bbb0d9f91042e72ae2e2eef2a7a9
 
+console.log("Resolviendo conflicto");
 
 
 
