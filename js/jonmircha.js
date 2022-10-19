@@ -46,6 +46,18 @@ const jon = {                   //Se crea el objeto
 
 // console.log(jon);//Muestra el objeto en la consola
 // console.log(jon["nombre"]); //Muestra la propiedad nombre del objeto.
+// console.log(jon.apellido);          //Accediendo al atributo
+// console.log(jon.pasatiempos[1]);    //Accediendo al arreglo
+// console.log(jon.contacto);          //Accediendo al objeto 
+// console.log(jon.contacto.twitter);  //Accediendo al objeto y a su cuerpo
+// console.log(jon.contacto.movil);
+// jon.saludar();                       //Mandando llamar a la funcion que esta dentro del objeto
+// jon.decirMiNombre();
+// console.log(Object.keys(jon)); //Object.keys muestra todas las llaves del objeto
+// console.log(Object.values(jon));//values noes muetra los valores del objeto en un arreglo iterable.
+// console.log(jon.hasOwnProperty("nombre")); //Busca si tiene una propiedad con ese nombre y devuelve un boolean
+
+
 
 
 
@@ -104,25 +116,17 @@ division /= 3;
 //Operador unario
 let uno = 1;
 uno++;
+// console.log(uno)
 
-console.log(uno)
+//Operadores lógocos 
+//!Not: Niega, es decir lo que es verdadero lo vuelve falso
+//||or: Cuando tengo 2 o más condiciones con que una se cumpla es decir sea verdadera, el or validará dará verdadero
+// &&and: Cuando tengo 2 o más condiciones, todas tienen que cumplirse, para que AND se cumpla
 
+// console.log(!false); //Lo vuelve true
+// console.log(!true); //Lo convierte a falso
 
-// console.log(jon);
-console.log(jon["nombre"]);         //Accediendo al atributo
-console.log(jon.apellido);          //Accediendo al atributo
-console.log(jon.pasatiempos[1]);    //Accediendo al arreglo
-console.log(jon.contacto);          //Accediendo al objeto 
-console.log(jon.contacto.twitter);  //Accediendo al objeto y a su cuerpo
-console.log(jon.contacto.movil);
-
-jon.saludar();                       //Mandando llamar a la funcion que esta dentro dl objeto
-
-jon.decirMiNombre();
-
-console.log("Resolviendo conflicto");
-
-
-
+console.log((9 === 9) || (9 === "9"));  //TRUE
+console.log((9 === 9) && (9 === "9"));    //FALSE porque lo ultimo no se cumple
 
 
